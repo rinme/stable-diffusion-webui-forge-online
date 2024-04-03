@@ -10,13 +10,13 @@
 #clone_dir="stable-diffusion-webui"
 
 # Commandline arguments for webui.py, for example: export COMMANDLINE_ARGS="--medvram --opt-split-attention"
-#export COMMANDLINE_ARGS=""
+export COMMANDLINE_ARGS="--xformers --share"
 
 # python3 executable
-#python_cmd="python3"
+python_cmd="python"
 
 # git executable
-#export GIT="git"
+export GIT="git"
 
 # python3 venv without trailing slash (defaults to ${install_dir}/${clone_dir}/venv)
 #venv_dir="venv"
