@@ -22,6 +22,7 @@ pytorch_lightning
 requests
 resize-right
 
+matplotlib==3.8.3
 safetensors
 scikit-image>=0.19
 tomesd
